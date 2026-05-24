@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img
-                src="/Images/AG Logo 1.svg"
+                src="/Images/AG Logo 1.png"
                 alt="Hover Ag"
                 className="h-14 w-14 object-contain"
               />

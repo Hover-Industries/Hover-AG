@@ -23,9 +23,9 @@ const Header = () => {
       {/* Single large logo overlay spanning both bars (hidden once scrolled) */}
       <Link
         to="/"
-        className={`absolute left-4 top-[-4.25rem] z-50 transition-opacity duration-300 ${isScrolled ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
+        className={`absolute left-4 top-[-1rem] z-50 transition-opacity duration-300 ${isScrolled ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
       >
-        <img src="/Images/AG Logo 1.svg" alt="Hover Ag" className="block h-56 md:h-72 lg:h-80 w-auto object-contain" />
+        <img src="/Images/AG Logo 1.png" alt="Hover Ag" className="block h-44 md:h-56 lg:h-64 w-auto object-contain" />
       </Link>
       {/* Top bar: big logo on left, centered contact */}
       <div className="bg-green-600 text-white py-2 px-4">
@@ -53,8 +53,14 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Brand text aligned inline with nav when scrolled */}
           {isScrolled ? (
-            <Link to="/" className="flex items-center">
-              <img src="/Images/AG Logo 1.svg" alt="Hover Ag" className="h-10 w-auto object-contain" />
+            <Link to="/" className="flex items-center gap-3 text-3xl font-bold text-gray-900">
+              <img
+                src="/Images/AG Logo 1.png"
+                alt=""
+                aria-hidden="true"
+                className="h-[4.5rem] w-auto shrink-0 object-contain -my-[1.125rem]"
+              />
+              <span>Hover Ag</span>
             </Link>
           ) : (
             <div />
