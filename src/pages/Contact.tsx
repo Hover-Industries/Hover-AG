@@ -28,8 +28,8 @@ const Contact = () => {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
         <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8 text-center">
-          <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-            <CheckCircle className="text-green-600" size={32} />
+          <div className="bg-brand-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+            <CheckCircle className="text-brand-600" size={32} />
           </div>
           <h1 className="text-2xl font-bold text-gray-900 mb-4">Message Sent!</h1>
           <p className="text-gray-600 mb-6">
@@ -38,7 +38,7 @@ const Contact = () => {
           <div className="space-y-3">
             <a
               href="tel:0401234955"
-              className="w-full bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-700 transition-colors flex items-center justify-center space-x-2"
+              className="w-full bg-brand-600 text-white py-3 px-6 rounded-lg hover:bg-brand-700 transition-colors flex items-center justify-center space-x-2"
             >
               <Phone size={20} />
               <span>Call us now</span>
@@ -86,7 +86,7 @@ const Contact = () => {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                     placeholder="Your full name"
                   />
                 </div>
@@ -102,7 +102,7 @@ const Contact = () => {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                     placeholder="your.email@example.com"
                   />
                 </div>
@@ -118,14 +118,14 @@ const Contact = () => {
                     required
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                     placeholder="Tell us about your property, what services you're interested in, or any questions you have..."
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-green-600 text-white py-4 px-8 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors"
+                  className="w-full bg-brand-600 text-white py-4 px-8 rounded-lg text-lg font-semibold hover:bg-brand-700 transition-colors"
                 >
                   Send Message
                 </button>
@@ -146,7 +146,7 @@ const Contact = () => {
                 <div className="space-y-6">
                   <a
                     href="tel:0401234955"
-                    className="flex items-center space-x-4 p-4 rounded-lg border-2 border-green-600 text-green-600 hover:bg-green-50 transition-colors"
+                    className="flex items-center space-x-4 p-4 rounded-lg border-2 border-brand-600 text-brand-600 hover:bg-brand-50 transition-colors"
                   >
                     <Phone size={24} />
                     <div>
@@ -157,7 +157,7 @@ const Contact = () => {
 
                   <a
                     href="mailto:ferdi.hover@gmail.com"
-                    className="flex items-center space-x-4 p-4 rounded-lg border border-gray-300 hover:border-green-600 hover:text-green-600 transition-colors"
+                    className="flex items-center space-x-4 p-4 rounded-lg border border-gray-300 hover:border-brand-600 hover:text-brand-600 transition-colors"
                   >
                     <Mail size={24} />
                     <div>
@@ -177,9 +177,9 @@ const Contact = () => {
               </div>
 
               {/* Business Hours */}
-              <div className="bg-green-50 rounded-lg p-6">
+              <div className="bg-brand-50 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                  <Clock size={20} className="mr-2 text-green-600" />
+                  <Clock size={20} className="mr-2 text-brand-600" />
                   Business Hours
                 </h3>
                 <div className="space-y-2 text-sm">

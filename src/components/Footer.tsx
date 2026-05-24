@@ -51,19 +51,19 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-center space-x-2">
-                <Phone size={16} className="text-green-500" />
+                <Phone size={16} className="text-brand-500" />
                 <a href="tel:0401234955" className="text-gray-300 hover:text-white transition-colors">
                   0401 234 955
                 </a>
               </li>
               <li className="flex items-center space-x-2">
-                <Mail size={16} className="text-green-500" />
+                <Mail size={16} className="text-brand-500" />
                 <a href="mailto:ferdi.hover@gmail.com" className="text-gray-300 hover:text-white transition-colors">
                   ferdi.hover@gmail.com
                 </a>
               </li>
               <li className="flex items-start space-x-2">
-                <MapPin size={16} className="text-green-500 mt-0.5" />
+                <MapPin size={16} className="text-brand-500 mt-0.5" />
                 <span className="text-gray-300">
                   Sunshine Coast, QLD
                 </span>

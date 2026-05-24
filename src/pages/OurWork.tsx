@@ -6,12 +6,12 @@ const OurWork = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-20">
+      <section className="bg-gradient-to-r from-brand-600 to-blue-600 text-white py-20">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             See What Drone Spraying Can Do For Your Farm
           </h1>
-          <p className="text-xl text-green-100 mb-8">
+          <p className="text-xl text-brand-100 mb-8">
             We've helped Queensland farmers save time, reduce costs, and improve crop yields. 
             Here's a look at some of our recent projects.
           </p>
@@ -25,7 +25,7 @@ const OurWork = () => {
           <div className="mb-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="flex items-center mb-4 text-green-600">
+                <div className="flex items-center mb-4 text-brand-600">
                   <MapPin size={20} className="mr-2" />
                   <span className="font-medium">Darling Downs, QLD</span>
                 </div>
@@ -38,12 +38,12 @@ const OurWork = () => {
                   achieved 35% faster coverage and 25% reduction in chemical usage.
                 </p>
                 <div className="grid grid-cols-2 gap-4 mb-6">
-                  <div className="bg-green-50 p-4 rounded-lg">
+                  <div className="bg-brand-50 p-4 rounded-lg">
                     <div className="flex items-center mb-2">
-                      <TrendingUp size={20} className="text-green-600 mr-2" />
+                      <TrendingUp size={20} className="text-brand-600 mr-2" />
                       <span className="font-semibold">Time Savings</span>
                     </div>
-                    <p className="text-2xl font-bold text-green-600">35%</p>
+                    <p className="text-2xl font-bold text-brand-600">35%</p>
                     <p className="text-sm text-gray-600">Faster completion</p>
                   </div>
                   <div className="bg-blue-50 p-4 rounded-lg">
@@ -62,7 +62,7 @@ const OurWork = () => {
                   alt="Wheat field before and after treatment"
                   className="rounded-lg shadow-lg"
                 />
-                <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                <div className="absolute top-4 left-4 bg-brand-600 text-white px-3 py-1 rounded-full text-sm font-medium">
                   Success Story
                 </div>
               </div>
@@ -105,7 +105,7 @@ const OurWork = () => {
                     alt="Pasture improvement after"
                     className="w-full h-48 object-cover"
                   />
-                  <div className="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 rounded text-xs">
+                  <div className="absolute top-2 right-2 bg-brand-500 text-white px-2 py-1 rounded text-xs">
                     After
                   </div>
                 </div>
@@ -157,7 +157,7 @@ const OurWork = () => {
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                     <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                      <svg className="w-6 h-6 text-green-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-brand-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z"/>
                       </svg>
                     </div>
@@ -184,7 +184,7 @@ const OurWork = () => {
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                     <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-                      <svg className="w-6 h-6 text-green-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-brand-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z"/>
                       </svg>
                     </div>
@@ -217,7 +217,7 @@ const OurWork = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-4xl font-bold text-green-600 mb-2">500+</div>
+                <div className="text-4xl font-bold text-brand-600 mb-2">500+</div>
                 <p className="text-gray-600">Farms Serviced</p>
               </div>
               <div className="text-center">
@@ -237,22 +237,22 @@ const OurWork = () => {
 
           {/* CTA Section */}
           <div className="text-center">
-            <div className="bg-green-600 text-white py-12 rounded-lg">
+            <div className="bg-brand-600 text-white py-12 rounded-lg">
               <h2 className="text-3xl font-bold mb-4">Ready to See These Results on Your Farm?</h2>
-              <p className="text-xl text-green-100 mb-6 max-w-2xl mx-auto">
+              <p className="text-xl text-brand-100 mb-6 max-w-2xl mx-auto">
                 Join the growing number of Australian farmers revolutionizing their operations with precision drone technology
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   to="/quote"
-                  className="bg-yellow-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-600 transition-colors inline-flex items-center justify-center space-x-2"
+                  className="bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-600 transition-colors inline-flex items-center justify-center space-x-2"
                 >
                   <span>Get Your Free Quote</span>
                   <ArrowRight size={20} />
                 </Link>
                 <a
                   href="tel:0401234955"
-                  className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-600 transition-colors inline-flex items-center justify-center"
+                  className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-brand-600 transition-colors inline-flex items-center justify-center"
                 >
                   Call: 0401 234 955
                 </a>

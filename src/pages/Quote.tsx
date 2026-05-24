@@ -34,8 +34,8 @@ const Quote = () => {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
         <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8 text-center">
-          <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-            <CheckCircle className="text-green-600" size={32} />
+          <div className="bg-brand-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+            <CheckCircle className="text-brand-600" size={32} />
           </div>
           <h1 className="text-2xl font-bold text-gray-900 mb-4">Quote Request Submitted!</h1>
           <p className="text-gray-600 mb-6">
@@ -45,7 +45,7 @@ const Quote = () => {
           <div className="space-y-3">
             <a
               href="tel:0401234955"
-              className="w-full bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-700 transition-colors flex items-center justify-center space-x-2"
+              className="w-full bg-brand-600 text-white py-3 px-6 rounded-lg hover:bg-brand-700 transition-colors flex items-center justify-center space-x-2"
             >
               <Phone size={20} />
               <span>Call us for urgent requests</span>
@@ -94,14 +94,14 @@ const Quote = () => {
                       required
                       value={formData.landSize}
                       onChange={handleChange}
-                      className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                      className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                       placeholder="e.g. 100"
                     />
                     <select
                       name="landUnit"
                       value={formData.landUnit}
                       onChange={handleChange}
-                      className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent w-40"
+                      className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent w-40"
                     >
                       <option value="hectares">Hectares</option>
                       <option value="acres">Acres</option>
@@ -121,7 +121,7 @@ const Quote = () => {
                     required
                     value={formData.cropType}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                     placeholder="e.g. Wheat, Cattle pasture, Cotton, Mixed crops"
                   />
                 </div>
@@ -137,7 +137,7 @@ const Quote = () => {
                     required
                     value={formData.serviceNeeded}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                   >
                     <option value="">Select a service</option>
                     <option value="weed-spraying">Weed Control Spraying</option>
@@ -164,7 +164,7 @@ const Quote = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                       placeholder="Your full name"
                     />
                   </div>
@@ -179,7 +179,7 @@ const Quote = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                       placeholder="0400 000 000"
                     />
                   </div>
@@ -196,7 +196,7 @@ const Quote = () => {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                     placeholder="your.email@example.com"
                   />
                 </div>
@@ -212,7 +212,7 @@ const Quote = () => {
                     required
                     value={formData.location}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                     placeholder="Town/Suburb, State (e.g. Toowoomba, QLD)"
                   />
                 </div>
@@ -228,7 +228,7 @@ const Quote = () => {
                     rows={4}
                     value={formData.details}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent"
                     placeholder="Tell us more about your specific requirements, timing, or any special considerations..."
                   ></textarea>
                 </div>
@@ -236,7 +236,7 @@ const Quote = () => {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-green-600 text-white py-4 px-8 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors"
+                  className="w-full bg-brand-600 text-white py-4 px-8 rounded-lg text-lg font-semibold hover:bg-brand-700 transition-colors"
                 >
                   Request My Free Quote
                 </button>
@@ -257,7 +257,7 @@ const Quote = () => {
                 <div className="space-y-4">
                   <a
                     href="tel:0401234955"
-                    className="flex items-center space-x-3 text-green-600 hover:text-green-700 transition-colors"
+                    className="flex items-center space-x-3 text-brand-600 hover:text-brand-700 transition-colors"
                   >
                     <Phone size={20} />
                     <div>
@@ -267,7 +267,7 @@ const Quote = () => {
                   </a>
                   <a
                     href="mailto:ferdi.hover@gmail.com"
-                    className="flex items-center space-x-3 text-green-600 hover:text-green-700 transition-colors"
+                    className="flex items-center space-x-3 text-brand-600 hover:text-brand-700 transition-colors"
                   >
                     <Mail size={20} />
                     <div>
@@ -279,23 +279,23 @@ const Quote = () => {
               </div>
 
               {/* What to Expect */}
-              <div className="bg-green-50 rounded-lg p-6">
+              <div className="bg-brand-50 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">What Happens Next?</h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">
+                    <div className="bg-brand-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">
                       1
                     </div>
                     <p className="text-sm text-gray-700">We'll review your requirements and property details</p>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">
+                    <div className="bg-brand-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">
                       2
                     </div>
                     <p className="text-sm text-gray-700">Our team will prepare a customized quote within 24 hours</p>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">
+                    <div className="bg-brand-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold">
                       3
                     </div>
                     <p className="text-sm text-gray-700">We'll contact you to discuss the quote and answer any questions</p>

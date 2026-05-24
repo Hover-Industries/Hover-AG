@@ -8,7 +8,7 @@ const StickyActions = () => {
       {/* Call button */}
       <a
         href="tel:0401234955"
-        className="bg-green-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 transition-colors flex items-center justify-center"
+        className="bg-brand-600 text-white p-4 rounded-full shadow-lg hover:bg-brand-700 transition-colors flex items-center justify-center"
         aria-label="Call now"
       >
         <Phone size={24} />
@@ -17,7 +17,7 @@ const StickyActions = () => {
       {/* Quote button */}
       <Link
         to="/quote"
-        className="bg-yellow-500 text-white p-4 rounded-full shadow-lg hover:bg-yellow-600 transition-colors flex items-center justify-center"
+        className="bg-yellow-500 text-black p-4 rounded-full shadow-lg hover:bg-yellow-600 transition-colors flex items-center justify-center"
         aria-label="Get quote"
       >
         <FileText size={24} />
