@@ -1,0 +1,194 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowRight, Droplets, Layers, Sprout, Wheat } from 'lucide-react';
+
+const Services = () => {
+  return (
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-20">
+        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            Professional Drone Agricultural Services
+          </h1>
+          <p className="text-xl text-green-100 mb-8">
+            Precision spraying and spreading solutions for modern Australian agriculture
+          </p>
+        </div>
+      </section>
+
+      {/* Services Grid */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/442116/pexels-photo-442116.jpeg"
+                alt="Crop Spraying Service"
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-8">
+                <div className="flex items-center mb-4">
+                  <Droplets className="text-blue-600 mr-3" size={32} />
+                  <h2 className="text-2xl font-bold text-gray-900">Spraying Services</h2>
+                </div>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Targeted spraying for broadleaf weeds, invasive pests, and crop diseases — applied with pinpoint accuracy. 
+                  Our XAG P150 drones deliver precise droplet sizes and application rates for maximum effectiveness while 
+                  minimizing chemical waste and environmental impact.
+                </p>
+                <div className="mb-6">
+                  <h3 className="font-semibold text-gray-900 mb-2">What we spray:</h3>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Herbicides for weed control</li>
+                    <li>• Fungicides for disease prevention</li>
+                    <li>• Insecticides for pest management</li>
+                    <li>• Growth regulators and foliar nutrients</li>
+                  </ul>
+                </div>
+                <Link
+                  to="/quote"
+                  className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center space-x-2"
+                >
+                  <span>Get Quote for Spraying</span>
+                  <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/1595108/pexels-photo-1595108.jpeg"
+                alt="Spreading Service"
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-8">
+                <div className="flex items-center mb-4">
+                  <Layers className="text-yellow-600 mr-3" size={32} />
+                  <h2 className="text-2xl font-bold text-gray-900">Spreading Services</h2>
+                </div>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Even distribution every time, helping your pasture and crops thrive. Variable rate technology ensures 
+                  optimal coverage patterns, reducing waste and maximizing the effectiveness of your fertilizer, 
+                  seed, and granular applications.
+                </p>
+                <div className="mb-6">
+                  <h3 className="font-semibold text-gray-900 mb-2">What we spread:</h3>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Granular fertilizers (NPK, specialty blends)</li>
+                    <li>• Seeds for pasture establishment</li>
+                    <li>• Lime and gypsum applications</li>
+                    <li>• Biological soil conditioners</li>
+                  </ul>
+                </div>
+                <Link
+                  to="/quote"
+                  className="bg-yellow-600 text-white px-6 py-3 rounded-lg hover:bg-yellow-700 transition-colors inline-flex items-center space-x-2"
+                >
+                  <span>Get Quote for Spreading</span>
+                  <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="/Images/Pastures.jpg"
+                alt="Pasture Improvement"
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-8">
+                <div className="flex items-center mb-4">
+                  <Sprout className="text-green-600 mr-3" size={32} />
+                  <h2 className="text-2xl font-bold text-gray-900">Pasture Improvement</h2>
+                </div>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Boost grazing productivity with targeted nutrient spreading and weed suppression. Our comprehensive 
+                  pasture programs combine precision fertilizer application with selective herbicide treatments to 
+                  maximize carrying capacity and improve pasture quality.
+                </p>
+                <div className="mb-6">
+                  <h3 className="font-semibold text-gray-900 mb-2">Pasture solutions include:</h3>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Broad-leaf weed control in pastures</li>
+                    <li>• Fertilizer programs for improved growth</li>
+                    <li>• Oversowing with improved species</li>
+                    <li>• Soil pH correction and conditioning</li>
+                  </ul>
+                </div>
+                <Link
+                  to="/quote"
+                  className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors inline-flex items-center space-x-2"
+                >
+                  <span>Get Quote for Pasture Work</span>
+                  <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg"
+                alt="Specialty Crop Spraying"
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-8">
+                <div className="flex items-center mb-4">
+                  <Wheat className="text-orange-600 mr-3" size={32} />
+                  <h2 className="text-2xl font-bold text-gray-900">Specialty Crop Spraying</h2>
+                </div>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Tailored spray height and droplet size for delicate crops. Whether it's fruit trees, vegetables, 
+                  or specialty crops, we adjust our drone settings for optimal coverage without damaging sensitive 
+                  plants or disrupting beneficial insects.
+                </p>
+                <div className="mb-6">
+                  <h3 className="font-semibold text-gray-900 mb-2">Specialty crop expertise:</h3>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Tree crops and orchards</li>
+                    <li>• Vegetable and market gardens</li>
+                    <li>• Organic-approved applications</li>
+                    <li>• Sensitive crop protection</li>
+                  </ul>
+                </div>
+                <Link
+                  to="/quote"
+                  className="bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition-colors inline-flex items-center space-x-2"
+                >
+                  <span>Get Quote for Specialty Crops</span>
+                  <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          
+
+          {/* Service Areas */}
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Service Areas</h2>
+            <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
+              Based on the Sunshine Coast, we service properties throughout Queensland and beyond. 
+              From small market gardens to large-scale cropping operations, no job is too big or too small.
+            </p>
+            <div className="bg-green-600 text-white py-12 rounded-lg">
+              <h3 className="text-2xl font-bold mb-4">Ready to Get Started?</h3>
+              <p className="text-xl text-green-100 mb-6">
+                Get a customized quote for your specific agricultural needs
+              </p>
+              <Link
+                to="/quote"
+                className="bg-yellow-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-600 transition-colors inline-flex items-center space-x-2"
+              >
+                <span>Get Your Free Quote</span>
+                <ArrowRight size={20} />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Services;
