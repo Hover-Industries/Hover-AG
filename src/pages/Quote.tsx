@@ -266,12 +266,12 @@ const Quote = () => {
                     </div>
                   </a>
                   <a
-                    href="mailto:feralrangers@gmail.com"
+                    href="mailto:ferdi.hover@gmail.com"
                     className="flex items-center space-x-3 text-green-600 hover:text-green-700 transition-colors"
                   >
                     <Mail size={20} />
                     <div>
-                      <p className="font-medium">feralrangers@gmail.com</p>
+                      <p className="font-medium">ferdi.hover@gmail.com</p>
                       <p className="text-sm text-gray-500">Email us directly</p>
                     </div>
                   </a>

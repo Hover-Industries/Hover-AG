@@ -25,7 +25,7 @@ const Header = () => {
         to="/"
         className={`absolute left-4 top-[-4.25rem] z-50 transition-opacity duration-300 ${isScrolled ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
       >
-        <img src="/Images/AG Logo 1.png" alt="Jackaroo Ag" className="block h-56 md:h-72 lg:h-80 w-auto object-contain" />
+        <img src="/Images/AG Logo 1.svg" alt="Hover Ag" className="block h-56 md:h-72 lg:h-80 w-auto object-contain" />
       </Link>
       {/* Top bar: big logo on left, centered contact */}
       <div className="bg-green-600 text-white py-2 px-4">
@@ -38,9 +38,9 @@ const Header = () => {
               <Phone size={14} />
               <span>0401 234 955</span>
             </a>
-            <a href="mailto:feralrangers@gmail.com" className="hidden sm:flex items-center space-x-1 hover:text-green-100">
+            <a href="mailto:ferdi.hover@gmail.com" className="hidden sm:flex items-center space-x-1 hover:text-green-100">
               <Mail size={14} />
-              <span>feralrangers@gmail.com</span>
+              <span>ferdi.hover@gmail.com</span>
             </a>
           </div>
           {/* Spacer (right) */}
@@ -53,8 +53,8 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Brand text aligned inline with nav when scrolled */}
           {isScrolled ? (
-            <Link to="/" className="text-xl font-bold text-gray-900">
-              Jackaroo Ag
+            <Link to="/" className="flex items-center">
+              <img src="/Images/AG Logo 1.svg" alt="Hover Ag" className="h-10 w-auto object-contain" />
             </Link>
           ) : (
             <div />

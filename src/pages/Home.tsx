@@ -16,7 +16,7 @@ const Home = () => {
             className="w-full h-full object-cover"
             poster="https://images.pexels.com/photos/2132180/pexels-photo-2132180.jpeg"
           >
-            <source src="/videos/hero.mps.mp4" type="video/mp4" />
+            <source src="/videos/Herofixed.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
@@ -121,7 +121,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Jackaroo Ag?
+              Why Choose Hover Ag?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Join hundreds of Australian farmers who have revolutionized their operations with our precision drone technology.
@@ -200,7 +200,7 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                The Jackaroo Ag Difference
+                The Hover Ag Difference
               </h2>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">

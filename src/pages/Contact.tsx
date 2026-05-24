@@ -156,12 +156,12 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="mailto:feralrangers@gmail.com"
+                    href="mailto:ferdi.hover@gmail.com"
                     className="flex items-center space-x-4 p-4 rounded-lg border border-gray-300 hover:border-green-600 hover:text-green-600 transition-colors"
                   >
                     <Mail size={24} />
                     <div>
-                      <p className="font-semibold">feralrangers@gmail.com</p>
+                      <p className="font-semibold">ferdi.hover@gmail.com</p>
                       <p className="text-sm text-gray-600">Email us directly</p>
                     </div>
                   </a>
