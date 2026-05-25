@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Droplets, Layers, Sprout, Wheat } from 'lucide-react';
+import { ArrowRight, Droplets, Layers, Sprout } from 'lucide-react';
 
 const Services = () => {
   return (
@@ -126,40 +126,6 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img
-                src="https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg"
-                alt="Specialty Crop Spraying"
-                className="w-full h-64 object-cover"
-              />
-              <div className="p-8">
-                <div className="flex items-center mb-4">
-                  <Wheat className="text-orange-600 mr-3" size={32} />
-                  <h2 className="text-2xl font-bold text-gray-900">Specialty Crop Spraying</h2>
-                </div>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  Tailored spray height and droplet size for delicate crops. Whether it's fruit trees, vegetables, 
-                  or specialty crops, we adjust our drone settings for optimal coverage without damaging sensitive 
-                  plants or disrupting beneficial insects.
-                </p>
-                <div className="mb-6">
-                  <h3 className="font-semibold text-gray-900 mb-2">Specialty crop expertise:</h3>
-                  <ul className="text-gray-600 space-y-1">
-                    <li>• Tree crops and orchards</li>
-                    <li>• Vegetable and market gardens</li>
-                    <li>• Organic-approved applications</li>
-                    <li>• Sensitive crop protection</li>
-                  </ul>
-                </div>
-                <Link
-                  to="/quote"
-                  className="bg-yellow-500 text-black px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors inline-flex items-center space-x-2"
-                >
-                  <span>Get Quote for Specialty Crops</span>
-                  <ArrowRight size={16} />
-                </Link>
-              </div>
-            </div>
           </div>
 
           

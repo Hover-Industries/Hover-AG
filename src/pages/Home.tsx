@@ -24,11 +24,11 @@ const Home = () => {
         {/* Hero Content */}
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Precision Drone Application
+            Precision Application Services
             <span className="text-yellow-400 text-3xl md:text-5xl"> Across Queensland & Beyond</span>
           </h1>
           <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-3xl mx-auto">
-            Save time, save chemicals, and get perfect coverage with our professional XAG P150 drone services. 
+            Save time, save chemicals, and get perfect coverage with our professional drone spraying and spreading services. 
             Trusted by farmers across Australia for superior results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -60,7 +60,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link to="/services" className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all">
               <img
                 src="/Images/crops-growing.jpg"
@@ -100,18 +100,6 @@ const Home = () => {
               </div>
             </Link>
 
-            <Link to="/services" className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all">
-              <img
-                src="/Images/Veg.avif"
-                alt="Specialty Crops"
-                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <h3 className="text-xl font-semibold mb-2">Specialty Crops</h3>
-                <p className="text-sm text-gray-200">Delicate crop solutions</p>
-              </div>
-            </Link>
           </div>
         </div>
       </section>
