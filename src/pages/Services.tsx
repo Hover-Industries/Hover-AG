@@ -33,17 +33,17 @@ const Services = () => {
                   <h2 className="text-2xl font-bold text-gray-900">Spraying Services</h2>
                 </div>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Targeted spraying for broadleaf weeds, invasive pests, and crop diseases — applied with pinpoint accuracy. 
-                  Our XAG P150 drones deliver precise droplet sizes and application rates for maximum effectiveness while 
-                  minimizing chemical waste and environmental impact.
+                  Targeted aerial application for broadleaf weeds, invasive pests, pasture management, and crop protection — delivered with precision and efficiency.
                 </p>
                 <div className="mb-6">
-                  <h3 className="font-semibold text-gray-900 mb-2">What we spray:</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Applications Include:</h3>
                   <ul className="text-gray-600 space-y-1">
-                    <li>• Herbicides for weed control</li>
-                    <li>• Fungicides for disease prevention</li>
-                    <li>• Insecticides for pest management</li>
-                    <li>• Growth regulators and foliar nutrients</li>
+                    <li>• Herbicide application for weed control</li>
+                    <li>• Fungicide application for disease prevention</li>
+                    <li>• Insecticide application for pest management</li>
+                    <li>• Foliar nutrient and liquid fertiliser application</li>
+                    <li>• Plant growth regulators</li>
+                    <li>• Spot spraying and broadacre treatment</li>
                   </ul>
                 </div>
                 <Link
@@ -68,17 +68,17 @@ const Services = () => {
                   <h2 className="text-2xl font-bold text-gray-900">Spreading Services</h2>
                 </div>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Even distribution every time, helping your pasture and crops thrive. Variable rate technology ensures 
-                  optimal coverage patterns, reducing waste and maximizing the effectiveness of your fertilizer, 
-                  seed, and granular applications.
+                  Accurate and efficient aerial spreading solutions for pasture improvement, crop establishment, and soil management.
                 </p>
                 <div className="mb-6">
-                  <h3 className="font-semibold text-gray-900 mb-2">What we spread:</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Applications Include:</h3>
                   <ul className="text-gray-600 space-y-1">
-                    <li>• Granular fertilizers (NPK, specialty blends)</li>
-                    <li>• Seeds for pasture establishment</li>
-                    <li>• Lime and gypsum applications</li>
+                    <li>• Granular fertiliser spreading (NPK and specialty blends)</li>
+                    <li>• Pasture and cover crop seeding</li>
+                    <li>• Lime and gypsum application</li>
                     <li>• Biological soil conditioners</li>
+                    <li>• Granular herbicides and soil amendments</li>
+                    <li>• Variable rate application services</li>
                   </ul>
                 </div>
                 <Link
