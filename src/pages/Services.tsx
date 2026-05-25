@@ -23,7 +23,7 @@ const Services = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/442116/pexels-photo-442116.jpeg"
+                src="/Images/Drone spraying Place card.jpg"
                 alt="Crop Spraying Service"
                 className="w-full h-64 object-cover"
               />
@@ -58,7 +58,7 @@ const Services = () => {
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/1595108/pexels-photo-1595108.jpeg"
+                src="/Images/Drone spreading place card.jpg"
                 alt="Spreading Service"
                 className="w-full h-64 object-cover"
               />

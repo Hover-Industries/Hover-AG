@@ -63,7 +63,7 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link to="/services" className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all">
               <img
-                src="/Images/crops-growing.jpg"
+                src="/Images/Drone spraying Place card.jpg"
                 alt="Crop Spraying"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -76,7 +76,7 @@ const Home = () => {
 
             <Link to="/services" className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all">
               <img
-                src="https://images.pexels.com/photos/1595108/pexels-photo-1595108.jpeg"
+                src="/Images/Drone spreading place card.jpg"
                 alt="Fertiliser Spreading"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
