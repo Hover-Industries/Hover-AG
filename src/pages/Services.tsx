@@ -132,10 +132,9 @@ const Services = () => {
 
           {/* Service Areas */}
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Service Areas</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Where We Work</h2>
             <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-              Based on the Sunshine Coast, we service properties throughout Queensland and beyond. 
-              From small market gardens to large-scale cropping operations, no job is too big or too small.
+              We're based on the Sunshine Coast and travel throughout Queensland and beyond to help landholders look after their country. From tight, tricky blocks to large-scale operations, we're ready to partner with you to get the job done right.
             </p>
             <div className="bg-brand-600 text-white py-12 rounded-lg">
               <h3 className="text-2xl font-bold mb-4">Ready to Get Started?</h3>

@@ -170,7 +170,7 @@ const Contact = () => {
                     <MapPin size={24} className="text-gray-600" />
                     <div>
                       <p className="font-semibold">Sunshine Coast, QLD</p>
-                      <p className="text-sm text-gray-600">Servicing all of Queensland</p>
+                      <p className="text-sm text-gray-600">Servicing all of Queensland and beyond</p>
                     </div>
                   </div>
                 </div>

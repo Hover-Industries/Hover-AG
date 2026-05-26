@@ -28,8 +28,7 @@ const Home = () => {
             <span className="text-yellow-400 text-3xl md:text-5xl"> Across Queensland & Beyond</span>
           </h1>
           <p className="text-lg md:text-xl mb-8 text-gray-200 max-w-3xl mx-auto">
-            Save time, save chemicals, and get perfect coverage with our professional drone spraying and spreading services. 
-            Trusted by farmers across Australia for superior results.
+            We partner with local landholders to keep paddocks clean and productive. Our drones hit the weeds exactly where they are, saving you time and chemical without tearing up your country.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
@@ -56,7 +55,7 @@ const Home = () => {
               Our Drone Services
             </h2>
             <p className="text-lg text-gray-600">
-              Professional agricultural solutions tailored to Australian farming conditions
+              Professional agricultural solutions tailored to your needs.
             </p>
           </div>
 
@@ -112,7 +111,7 @@ const Home = () => {
               Why Choose Hover Ag?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Join hundreds of Australian farmers who have revolutionized their operations with our precision drone technology.
+            Because we treat your country like our own, working alongside you to get the job done right.
             </p>
           </div>
 
@@ -123,7 +122,7 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4">Faster Than Traditional Methods</h3>
               <p className="text-gray-600">
-                Cover more land in less time. Our XAG P150 drones can spray up to 20 hectares per hour, 
+                Cover more land in less time. Our drones can spray up to 20 hectares per hour, 
                 dramatically reducing your application time compared to ground-based equipment.
               </p>
             </div>
@@ -231,7 +230,7 @@ const Home = () => {
             Start Saving Time and Money Today
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Join the growing number of Australian farmers choosing precision drone technology for better results.
+            Join the growing number of Australian landholders choosing Hover Ag for better results.
           </p>
           <Link
             to="/quote"
