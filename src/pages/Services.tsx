@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Droplets, Layers, Sprout } from 'lucide-react';
+import { ArrowRight, Droplets, Layers, Flag } from 'lucide-react';
 
 const Services = () => {
   return (
@@ -92,35 +92,35 @@ const Services = () => {
             </div>
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="/Images/Pastures.jpg"
-                alt="Pasture Improvement"
+              <img
+                src="/Images/Sports-field.png"
+                alt="Sports Turf & Recreational Grounds"
                 className="w-full h-64 object-cover"
               />
               <div className="p-8">
                 <div className="flex items-center mb-4">
-                  <Sprout className="text-brand-600 mr-3" size={32} />
-                  <h2 className="text-2xl font-bold text-gray-900">Pasture Improvement</h2>
+                  <Flag className="text-brand-600 mr-3" size={32} />
+                  <h2 className="text-2xl font-bold text-gray-900">Sports Turf & Recreational Grounds</h2>
                 </div>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Boost grazing productivity with targeted nutrient spreading and weed suppression. Our comprehensive 
-                  pasture programs combine precision fertilizer application with selective herbicide treatments to 
-                  maximize carrying capacity and improve pasture quality.
+                  Keep your playing surfaces in top condition with precision drone application. From local rugby ovals to council parks, we deliver targeted turf care that keeps grounds healthy, playable, and looking their best — without disrupting schedules or damaging surfaces with heavy equipment.
                 </p>
                 <div className="mb-6">
-                  <h3 className="font-semibold text-gray-900 mb-2">Pasture solutions include:</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Applications Include:</h3>
                   <ul className="text-gray-600 space-y-1">
-                    <li>• Broad-leaf weed control in pastures</li>
-                    <li>• Fertilizer programs for improved growth</li>
-                    <li>• Oversowing with improved species</li>
-                    <li>• Soil pH correction and conditioning</li>
+                    <li>• Weed control for sports fields and ovals</li>
+                    <li>• Fertiliser programs for healthy turf growth</li>
+                    <li>• Pest and grub treatments</li>
+                    <li>• Fungicide application for turf disease</li>
+                    <li>• Oversowing and turf establishment</li>
+                    <li>• Growth regulators for reduced mowing</li>
                   </ul>
                 </div>
                 <Link
                   to="/quote"
                   className="bg-yellow-500 text-black px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors inline-flex items-center space-x-2"
                 >
-                  <span>Get Quote for Pasture Work</span>
+                  <span>Get Quote for Sports Turf</span>
                   <ArrowRight size={16} />
                 </Link>
               </div>

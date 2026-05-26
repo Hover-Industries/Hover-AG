@@ -89,14 +89,14 @@ const Home = () => {
 
             <Link to="/services" className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all">
               <img
-                src="/Images/Pastures.jpg"
-                alt="Pasture Improvement"
+                src="/Images/Sports-field.png"
+                alt="Sports Turf & Recreational Grounds"
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <h3 className="text-xl font-semibold mb-2">Pasture Improvement</h3>
-                <p className="text-sm text-gray-200">Boost grazing productivity</p>
+                <h3 className="text-xl font-semibold mb-2">Sports Turf & Grounds</h3>
+                <p className="text-sm text-gray-200">Keep playing surfaces in top condition</p>
               </div>
             </Link>
 
