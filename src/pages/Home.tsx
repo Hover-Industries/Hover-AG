@@ -16,7 +16,7 @@ const Home = () => {
             className="w-full h-full object-cover"
             poster="https://images.pexels.com/photos/2132180/pexels-photo-2132180.jpeg"
           >
-            <source src="/videos/Herofixed.mp4" type="video/mp4" />
+            <source src="/videos/Landing%20Padge%20Vid.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         </div>
