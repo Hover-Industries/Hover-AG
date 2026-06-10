@@ -146,6 +146,7 @@ const Quote = () => {
                     <option value="fertilizer-spreading">Fertilizer Spreading</option>
                     <option value="seed-spreading">Seed Spreading</option>
                     <option value="pasture-improvement">Pasture Improvement</option>
+                    <option value="aquatic-application">Aquatic Application</option>
                     <option value="specialty-crop">Specialty Crop Treatment</option>
                     <option value="multiple">Multiple Services</option>
                     <option value="other">Other</option>

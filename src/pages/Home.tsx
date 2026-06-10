@@ -59,7 +59,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Link to="/services" className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all">
               <img
                 src="/Images/Drone spraying Place card.jpg"
@@ -96,6 +96,19 @@ const Home = () => {
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                 <h3 className="text-xl font-semibold mb-2">Sports Turf & Grounds</h3>
                 <p className="text-sm text-gray-200">Keep playing surfaces in top condition</p>
+              </div>
+            </Link>
+
+            <Link to="/services" className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all">
+              <img
+                src="/Images/Dam application.jpg"
+                alt="Aquatic Application"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                <h3 className="text-xl font-semibold mb-2">Aquatic Application</h3>
+                <p className="text-sm text-gray-200">Dam, pond & waterway management</p>
               </div>
             </Link>
 

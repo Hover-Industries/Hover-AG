@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Droplets, Layers, Flag } from 'lucide-react';
+import { ArrowRight, Droplets, Layers, Flag, Waves } from 'lucide-react';
 
 const Services = () => {
   return (
@@ -12,7 +12,7 @@ const Services = () => {
             Drone Application services
           </h1>
           <p className="text-lg text-brand-100">
-            Precision spraying and spreading solutions for modern Australian agriculture
+            Precision spraying, spreading, and aquatic solutions for modern Australian agriculture
           </p>
         </div>
       </section>
@@ -121,6 +121,41 @@ const Services = () => {
                   className="bg-yellow-500 text-black px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors inline-flex items-center space-x-2"
                 >
                   <span>Get Quote for Sports Turf</span>
+                  <ArrowRight size={16} />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="/Images/Dam application.jpg"
+                alt="Aquatic Application Service"
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-8">
+                <div className="flex items-center mb-4">
+                  <Waves className="text-blue-500 mr-3" size={32} />
+                  <h2 className="text-2xl font-bold text-gray-900">Aquatic Application</h2>
+                </div>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  Precision drone application for dams, ponds, lakes, and waterways. Reach difficult water bodies without boats or heavy equipment — ideal for weed control, algae management, and keeping your water assets healthy and usable.
+                </p>
+                <div className="mb-6">
+                  <h3 className="font-semibold text-gray-900 mb-2">Applications Include:</h3>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Aquatic weed control (water hyacinth, salvinia, and more)</li>
+                    <li>• Algae and blue-green algae treatment</li>
+                    <li>• Dam and pond weed management</li>
+                    <li>• Irrigation channel and waterway maintenance</li>
+                    <li>• Mosquito and larvae control in standing water</li>
+                    <li>• Stock water and farm dam treatments</li>
+                  </ul>
+                </div>
+                <Link
+                  to="/quote"
+                  className="bg-yellow-500 text-black px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors inline-flex items-center space-x-2"
+                >
+                  <span>Get Quote for Aquatic Application</span>
                   <ArrowRight size={16} />
                 </Link>
               </div>
