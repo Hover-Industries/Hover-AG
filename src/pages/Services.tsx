@@ -143,8 +143,7 @@ const Services = () => {
                 <div className="mb-6">
                   <h3 className="font-semibold text-gray-900 mb-2">Applications Include:</h3>
                   <ul className="text-gray-600 space-y-1">
-                    <li>• Aquatic weed control (water hyacinth, salvinia, and more)</li>
-                    <li>• Algae and blue-green algae treatment</li>
+                    <li>• Aquatic weed control (Water Hyacinth, Salvinia, Azolla, and more)</li>
                     <li>• Dam and pond weed management</li>
                     <li>• Irrigation channel and waterway maintenance</li>
                     <li>• Mosquito and larvae control in standing water</li>
