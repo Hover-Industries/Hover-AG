@@ -18,7 +18,7 @@ const Footer = () => {
               <span className="text-xl font-bold">Hover Ag</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Professional drone spraying and spreading services across Queensland and beyond. 
+              Professional drone application services across Queensland and beyond. 
               Save time, reduce costs, and improve your farm's productivity with precision agriculture.
             </p>
             <div className="flex space-x-4">
