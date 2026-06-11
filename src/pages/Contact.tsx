@@ -9,6 +9,8 @@ const Contact = () => {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -17,11 +19,31 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real application, you would send this data to your backend
-    console.log('Contact form submitted:', formData);
-    setSubmitted(true);
+    setSubmitting(true);
+    setError('');
+
+    try {
+      const response = await fetch('https://formspree.io/f/mpqejkbe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Submission failed');
+      }
+
+      setSubmitted(true);
+    } catch {
+      setError('Something went wrong. Please try again or contact us directly.');
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   if (submitted) {
@@ -123,11 +145,18 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
+                {error && (
+                  <p className="text-sm text-red-600 text-center" role="alert">
+                    {error}
+                  </p>
+                )}
+
                 <button
                   type="submit"
-                  className="w-full bg-brand-600 text-white py-4 px-8 rounded-lg text-lg font-semibold hover:bg-brand-700 transition-colors"
+                  disabled={submitting}
+                  className="w-full bg-brand-600 text-white py-4 px-8 rounded-lg text-lg font-semibold hover:bg-brand-700 transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  Send Message
+                  {submitting ? 'Sending...' : 'Send Message'}
                 </button>
 
                 <p className="text-sm text-gray-500 text-center">
